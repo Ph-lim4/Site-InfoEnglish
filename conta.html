@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"/>
+    <title>InfoEnglish</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="_css/form.css">
+
+</head>
+<script  language="javascript" src="_javascript/funcoes.js"></script>
+<script>
+    function calc_total(){
+        var qtd = parseInt(document.getElementById('cQtd').value);
+        tot = qtd * 1500;
+        document.getElementById('cTot').value = tot;
+    }
+</script>
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <br>
+			<hgroup>
+				<h1>InfoEnglish</h1>
+				<h2>Sua ferramenta de inglês instrumental</h2>
+			</hgroup>
+
+       
+        <nav id="menu"> 
+			<ul>
+				<li><a href="index.html">Home<a></li>
+				<li><a href="conteudos.html">Conteúdos</a></li>
+				<li><a href="videos.html">Videos</a></li>
+				<li><a href="exercicios.html">Exercícios</a></li>
+				<li><a href="conta.html">Conta</a></li>
+			</ul>
+		</nav>
+		</header>
+        </header>
+
+
+        <form method="POST" id="fContato" oninput="calc_total()">
+            <fieldset id="usuario">
+                <legend>Identificação do Usuário</legend>
+                    <p><label for="cNome">Nome:</label>
+                        <input type="text" name="tNome" id="cNome" size="20" maxlength="30"placeholder="Nome Completo"/></p>
+
+                    <p><label for="cSenha">Senha:</label>
+                        <input type="password" name="tSenha" id="cSenha" size="8" maxlength="8" placeholder="Digita uma senha"/></p>
+
+                    <p><lable>E-mail:</label>
+                        <input type="email" name="tEmail" id="cEmail" size="20" maxlength="40"/></p>
+                    
+            </fieldset>
+
+            
+
+            <input type="image" name="tEnviar"src="_imagens/botao-enviar.png"/>
+        </form>
+
+
+        <footer id="rodape">
+            <p>Copyright &copy; 2021 - by Grupo de estudantes <br/>
+            <a href="https://ifbaiano.edu.br/portal/" target="_blank">3º Ano Informática</a> | 
+            <a href="https://ifbaiano.edu.br/portal/" target="_blank">Integrado</a> </p>
+        </footer>
+    </div>  
+</body>
+</html>

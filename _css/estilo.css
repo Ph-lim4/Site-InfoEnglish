@@ -1,0 +1,194 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@font-face {
+	font-family: 'FonteLogo';
+	src: url(../_fonts/bubblegum-sans-regular.otf);
+}
+body {
+	background-color: #3b3b3b;
+	font-family: Arial, sans-serif;
+}
+
+div#interface {
+	width: 1200px;
+	background-color: #eeeeee;
+	margin: -20px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+	padding: 10px;
+	text-align: center;
+}
+
+p {
+	text-align: justify; 
+	text-indent: 50px;
+}
+
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+	height: 120px;
+
+}
+
+header#cabecalho h1 {
+	font-family: 'FonteLogo', sans-serif;
+	font-size: 30pt;
+	color: #000000;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, .6);
+	padding: 0px;
+	margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+	font-family: 'Titillium Web', sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+/* Formatação do menu */
+nav#menu {
+	display: block;
+}
+
+nav#menu ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -20px;
+	left: 390px;
+	border-radius: 5px;
+}
+
+nav#menu li {
+	display: inline-block;
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition:background-color 1s;
+    -moz-transition:background-color 1s;
+    -o-transition:background-color 1s;
+    transition:background-color 1s;
+	border-radius: 5px;
+	border-width: 2px;
+    border-color: rgb(32, 32, 32);
+    border-style: solid;
+}
+
+nav#menu li:hover {
+	background-color: #606060;
+}
+
+nav#menu h1 {
+	display: none;
+}
+
+nav#menu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav#menu a:hover {
+	color: #ffffff;
+}
+/*Formatação metodo*/
+
+div#metodo{
+	width: 1200px;
+	background-color: #eeeeee;
+	margin: -20px auto 10px auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, .5);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+div#metodo h1{
+	font-size: 50pt;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+div#metodo a{
+	font-family: 'Titillium Web', sans-serif;
+	color: #363636;
+	font-size: 30pt;
+	padding-top: 10px;
+	margin-top: -20px;
+}
+div#metodo a:hover {
+	color:#000000;
+}
+img#seta{
+	margin-top: 0px;
+	width: 80px;
+	height: 80px;
+}
+/*Formatção nosso*/
+h1#nosso{
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+	color: #181818;
+	font-size: 30pt;
+	padding-top: 10px;
+	margin-top: -20px;
+}
+
+h2#nosso{
+	text-align: left;
+	font-family: 'Titillium Web', sans-serif;
+	color: #353535;
+	font-size: 15pt;
+	padding-top: 10px;
+	margin-top: -20px;
+}
+
+/*Formatação section botão*/
+section#corpo-full ul {
+	list-style: none;
+	text-transform: uppercase;
+	top: -20px;
+	left: 390px;
+	border-radius: 5px;
+}
+
+nav#corpo-full li {
+	background-color: #dddddd;
+	padding: 10px;
+	margin: 2px;
+	-webkit-transition:background-color 1s;
+    -moz-transition:background-color 1s;
+    -o-transition:background-color 1s;
+    transition:background-color 1s;
+	border-radius: 5px;
+	border-width: 2px;
+    border-color: rgb(32, 32, 32);
+    border-style: solid;
+}
+/*Formatação rodapé*/
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+	text-align: center;
+}
+
+footer#rodape a {
+	text-decoration: none;
+	color: #000000;
+}
+
+footer#rodape a:hover {
+	color: blue;
+}
